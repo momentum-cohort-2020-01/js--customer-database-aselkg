@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: #f1f1f1;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box > .row {
+  width: 24%;
+  text-align: center;
+  font-size: 16px;
+  padding: 30px;;
+}
+
+.title {
+    margin: 15px 50px;
+}
+.picture{
+    border-radius: 50%;
+}
+
+.email {
+    color: grey;
+}
